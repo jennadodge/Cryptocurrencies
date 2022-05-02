@@ -30,6 +30,7 @@ Finally, I scaled the data using the ```StandardScaler()``` method because the v
 The DataFrame I was left with at the end of Step 1 has 98 columns which makes for a slow, ineffcient, and clunky machine learning algorithm dataset. For efficiency, I reduce the number of variables down to the top 3 to retain most of the information in the original dataset but with only 3 key components.
 
 Using Principal Component Analysis, I reduce the DataFrame down to the top 3 key components and am left with the following DataFrame.
+
 ![pcs_df](images/pcs_df.png)
 
 ### Step 3: Clustering using K-Means
